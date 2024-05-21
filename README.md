@@ -2,6 +2,7 @@
     <h1>Hydra Lab Walkthrough</h1>
     <h2>Introduction</h2>
     <p>This guide will walk you through the TryHackMe Hydra lab, teaching you how to use Hydra for brute-forcing login credentials. Ensure you have access to TryHackMe and the necessary tools installed (OpenVPN, Burp Suite, and FoxyProxy).</p>
+    - <b><a href="https://tryhackme.com/r/room/hydra">TryHackMe Hydra Room</a></b>
     <h2>Prerequisites</h2>
     <ul>
         <li><strong>TryHackMe Account:</strong> Ensure you have an account on TryHackMe.</li>
